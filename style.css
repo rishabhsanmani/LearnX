@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
+
 
 .logo{
     display: flex;
@@ -40,7 +43,7 @@
     overflow: hidden; */
 }
 
-.apply{
+.btn1{
     /* margin: auto; */
     font-size: 20px;
     padding: 10px;
@@ -52,7 +55,7 @@
     cursor: pointer;
 }
 
-.apply:hover{
+.btn1:hover{
     background-color: rgb(139, 92, 246);
     box-shadow: 4px 4px 4px grey;
 }
@@ -67,8 +70,52 @@
     text-decoration: underline;
 }
 .box1{
-    height: 90vh;
+    height: 70vh;
     background-image: url(learnx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 90px;
 }
+
+.text1{
+    font-size: 64px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    font-size: 22px;
+    color: white;
+    display: block;
+    justify-content: center;
+
+}
+
+#btn2{
+    color: white;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.btn2{
+    background-color: rgb(139, 92, 246);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+#btn3{
+    color: black;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.btn3{
+    padding: 20px;
+    border-radius: 16px;
+}
+
