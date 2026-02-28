@@ -49,10 +49,12 @@
     padding: 10px;
     /* background-color: (#02033f); */
     background-color: rgb(3, 3, 73);
-    color: white;
     border-color: grey;
     border-radius: 12px;
-    cursor: pointer;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
 }
 
 .btn1:hover{
@@ -117,5 +119,57 @@
 .btn3{
     padding: 20px;
     border-radius: 16px;
+}
+
+.btns{
+    display: flex;
+    gap: 300px;
+}
+
+.box2{
+    background-color: rgb(139, 92, 246);
+    height: 70vh;
+    color: white;
+    
+}
+
+.info{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    line-height: 190px;
+}
+
+.box2 i{
+    font-size: 128px;
+}
+
+.text3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text4{
+    font-size: 20px;
+}
+
+.enrolled{
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.offered{
+    line-height: normal;
+    align-self: center;
+}
+
+.faculty{
+    line-height: normal;
+}
+
+.cities{
+    line-height: normal;
 }
 
