@@ -134,7 +134,7 @@
 }
 
 .info{
-    padding-top: 120px;
+    padding-top: 90px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -154,22 +154,29 @@
 }
 
 .enrolled{
-    line-height: 70px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
+    line-height: 90px;
+    padding-left: 10px;
 }
 
 .offered{
-    line-height: normal;
+    line-height: 90px;
     align-self: center;
 }
 
 .faculty{
-    line-height: normal;
+    line-height: 90px;
 }
 
 .cities{
-    line-height: normal;
+    line-height: 90px;
+    padding-right: 10px;
 }
 
+#globe{
+    padding-left: 5px;
+}
+
+.box3{
+    height: 81.57vh;
+    background-color: rgb(2, 3, 50);
+}
