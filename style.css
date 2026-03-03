@@ -225,10 +225,9 @@
     width: 250px;
     border-radius: 16px;
     background-color: rgb(139, 92, 246);
-    line-height: 30px;
+    line-height: 36.5px;
     margin-left: 100px;
     margin-right: 100px;
-
 }
 
 .card3{
@@ -286,6 +285,36 @@
     box-shadow: 4px 4px 4px black;
 }
 
+.btn5{
+    color: black;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 10px;
+}
+#btn5{
+    text-decoration: none;
+    color: black;
+}
+
+.btn5:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+.btn6{
+    color: black;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 10px;
+}
+#btn6{
+    text-decoration: none;
+    color: black;
+}
+
+.btn6:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
 .img2{
     height: 140px;
     background-image: url(learnx2.jpg);
@@ -304,11 +333,130 @@
     border-top-right-radius: 16px;
 }
 
-.btn5{
+.btn7{
     width: 320px;
-    margin: 27px;
-    padding: 15px;
+    height: 60px;
+    margin-top: 32px;
+    padding: auto;
     background-color: rgb(139, 92, 246);
     font-size: 21px;
     border-radius: 16px;
+}
+
+#btn7{
+    text-decoration: none;
+    color: white;
+}
+
+.box4{
+    height: 65vh;
+}
+
+.card4{
+    width: 420px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dp1{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    background-image: url(person1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile1 div{
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.card5{
+    width: 420px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.dp2{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    background-image: url(parson3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.text10{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.text11{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    line-height: 80px;
+}
+
+.profile2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile2 div{
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.card6{
+    width: 420px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.dp3{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    background-image: url(person2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile3 div{
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.cards1{
+    display: flex;
+    justify-content: space-evenly;
 }
