@@ -136,7 +136,7 @@
 .info{
     padding-top: 90px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 50px;
     line-height: 190px;
 }
@@ -177,19 +177,75 @@
 }
 
 .box3{
-    height: 81.57vh;
+    height: 91.57vh;
     background-color: rgb(2, 3, 50);
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.text5{
+    font-size: 40px;
+    font-weight: bold
+}
+
+.text6{
+    font-size: 21px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* margin-left: 30px; */
 }
 
 .card1{
     height: 350px;
     width: 250px;
     border-radius: 16px;
-    background-color: rgb(2, 3, 50);
-    box-shadow: 0px 0px 50px gray;
+    background-color: rgb(139, 92, 246);
     line-height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
+
+.card2{
+    height: 350px;
+    width: 250px;
+    border-radius: 16px;
+    background-color: rgb(139, 92, 246);
+    line-height: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.card3{
+    height: 350px;
+    width: 250px;
+    border-radius: 16px;
+    background-color: rgb(139, 92, 246);
+    line-height: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* .card1:hover{
+    box-shadow: 20px 20px 20px rgb(118, 87, 190);
+
+} */
 
 .img1{
     height: 140px;
@@ -202,21 +258,57 @@
 
 .text7{
     font-size: 10px;
+    padding-left: 10px;
 }
 
 .text8{
     font-size: 20px;
+    padding-left: 10px;
 }
 
 .text9{
     font-size: 12px;
+    padding-left: 10px;
 }
 
 .btn4{
     color: black;
     border-radius: 8px;
     padding: 8px;
+    margin-left: 10px;
 }
 #btn4{
     text-decoration: none;
+    color: black;
+}
+
+.btn4:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+.img2{
+    height: 140px;
+    background-image: url(learnx2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.img3{
+    height: 140px;
+    background-image: url(learnx1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.btn5{
+    width: 320px;
+    margin: 27px;
+    padding: 15px;
+    background-color: rgb(139, 92, 246);
+    font-size: 21px;
+    border-radius: 16px;
 }
