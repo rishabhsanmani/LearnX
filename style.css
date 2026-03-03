@@ -460,3 +460,32 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.box5{
+    height: 40vh;
+    background-color: rgb(139, 92, 246);
+    color: white;
+}
+
+.text12{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text13{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.btn8{
+    align-content: center;
+    font-size: 15px;
+}
+
+#btn8{
+    color: rgb(139, 92, 246);
+    text-decoration: none;
+}
