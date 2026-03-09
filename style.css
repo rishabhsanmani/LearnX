@@ -571,3 +571,21 @@
 
 /* **************************************************************************************************************************************************** */
 
+.about_box1{
+    height: 40vh;
+    color: white;
+    background-image: url(learnx3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.text18{
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 170px;
+}
+
+.text19{
+    font-size: 22px;
+}
