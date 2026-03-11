@@ -598,3 +598,21 @@
 #target{
     text-align: center;
 }
+
+.about_card1{
+    width: 430px;
+}
+
+
+.heading2{
+    display: flex;
+    gap: 10px;
+}
+
+#target1{
+    text-align: center;
+}
+
+.about_card1{
+    width: 430px;
+}
