@@ -592,5 +592,9 @@
 
 .heading1{
     display: flex;
-    gap: 30px;
+    gap: 10px;
+}
+
+#target{
+    text-align: center;
 }
