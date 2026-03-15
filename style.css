@@ -613,6 +613,13 @@
     text-align: center;
 }
 
-.about_card1{
+.about_card2{
     width: 430px;
+}
+
+.about_box2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    justify-items: center;
 }
